@@ -13,18 +13,12 @@
     "@preact/signals-core": "^1.6.0",
     "@preact/signals-react": "^2.0.1",
     "@preact/signals-react-transform": "^0.3.1",
-    "@tanstack/query-core": "^5.29.0",
-    "add": "^2.0.6",
     "effector": "^23.2.0",
     "effector-react": "^23.2.0",
-    "jotai": "^2.8.0",
-    "jotai-tanstack-query": "^0.8.5",
     "patronum": "^2.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-query": "^3.39.3",
-    "vite-plugin-babel": "^1.2.0",
-    "wonka": "^6.3.4"
+    "react-query": "^3.39.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
