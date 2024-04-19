@@ -1,0 +1,41 @@
+{
+  "name": "query-adapters",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@preact/signals-core": "^1.6.0",
+    "@preact/signals-react": "^2.0.1",
+    "@preact/signals-react-transform": "^0.3.1",
+    "@tanstack/query-core": "^5.29.0",
+    "add": "^2.0.6",
+    "effector": "^23.2.0",
+    "effector-react": "^23.2.0",
+    "jotai": "^2.8.0",
+    "jotai-tanstack-query": "^0.8.5",
+    "patronum": "^2.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-query": "^3.39.3",
+    "vite-plugin-babel": "^1.2.0",
+    "wonka": "^6.3.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
